@@ -1,0 +1,6 @@
+layers/
+_tools/out/
+_tools/jobs.json
+_tools/render.log
+__pycache__/
+desktop.ini

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunlit Guides</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap">
+<style>
+:root{--ground:#FCEFD6;--surface:#FFFBF0;--ink:#4A2E1E;--muted:#8A6A52;--accent:#E4513B;--sun:#FFD23F}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--ground);background-image:radial-gradient(rgba(74,46,30,.07) 1px,transparent 1.2px);background-size:12px 12px;color:var(--ink);font:15px/1.6 "DotGothic16","Malgun Gothic",monospace;padding:24px 16px}
+main{width:100%;max-width:520px;display:grid;gap:14px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+h1{font:700 26px/1.1 "Silkscreen","DotGothic16",monospace;margin:0 0 6px;text-shadow:2px 2px 0 var(--sun)}
+html[lang="ko"] h1{font-family:"DotGothic16",monospace}
+p{margin:0;color:var(--muted)}
+a.card{display:block;background:var(--surface);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:14px 16px;color:var(--ink);text-decoration:none}
+a.card:hover,a.card:focus-visible{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);outline:none}
+a.card b{display:block;font:700 16px/1.2 "Silkscreen","DotGothic16",monospace;color:var(--accent);margin-bottom:4px}
+.seg{display:inline-flex;border:3px solid var(--ink);background:var(--surface);padding:2px;flex:none}
+.seg button{border:0;background:transparent;color:var(--muted);padding:5px 10px;font:700 13px/1 "Silkscreen",monospace;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+:focus-visible{outline:2px solid #2F7BD9;outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <h1 data-i="title">Sunlit Guides</h1>
+    <div class="seg" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="ko">KO</button></div>
+  </div>
+  <p data-i="sub">Society Sunlit Cobblemon modpack 1.1.4 · Cobblemon 1.5.2 backport</p>
+  <a class="card" href="pokedex/"><b data-i="dexT">▶ Pokédex</b><span data-i="dexD">1,000 Pokémon with in-game model renders, wild spawns, Poké fishing, Gachamon Capsules, evolutions, breeding partners, shiny odds, stars and custom lists (saved in the browser).</span></a>
+</main>
+<script>
+(function(){
+  var S={
+    en:{title:'Sunlit Guides',sub:'Society Sunlit Cobblemon modpack 1.1.4 · Cobblemon 1.5.2 backport',dexT:'▶ Pokédex',dexD:'1,000 Pokémon with in-game model renders, wild spawns, Poké fishing, Gachamon Capsules, evolutions, breeding partners, shiny odds, stars and custom lists (saved in the browser).'},
+    ko:{title:'선릿 가이드',sub:'Society Sunlit Cobblemon 모드팩 1.1.4 · Cobblemon 1.5.2 백포트',dexT:'▶ 포켓몬 도감',dexD:'포켓몬 1,000마리. 게임 속 모델 이미지, 야생 출현, 포켓 낚시, 가챠몬 캡슐, 진화, 교배 상대, 이로치 확률, 별표와 나만의 리스트(브라우저에 저장).'}
+  };
+  var lang='en';
+  try{var s=localStorage.getItem('ssdex-lang');if(s==='ko'||s==='en')lang=s;}catch(e){}
+  function apply(){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-i]').forEach(function(el){el.textContent=S[lang][el.dataset.i];});
+    document.querySelectorAll('.seg button').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===lang));});
+    document.title=S[lang].title;
+  }
+  document.querySelectorAll('.seg button').forEach(function(b){b.addEventListener('click',function(){lang=b.dataset.lang;try{localStorage.setItem('ssdex-lang',lang);}catch(e){}apply();});});
+  apply();
+})();
+</script>
+</body>
+</html>

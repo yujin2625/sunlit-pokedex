@@ -1,0 +1,1298 @@
+{
+ "groudon": [
+  {
+   "en": "With a Silph Scope, use a Red Orb on a Biodome Altar that has 125+ Nether blocks, 50+ heat blocks/lava and 75+ natural blocks within 16 blocks. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고, 반경 16칸 안에 네더 블록 125개·열기 블록/용암 50개·자연 블록 75개 이상이 있는 바이오돔 제단에 주홍구슬을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  },
+  {
+   "en": "If Kyogre and Rayquaza are both in your party, the Red Orb ritual has a 10% chance to summon Primal Groudon instead.",
+   "ko": "파티에 가이오가와 레쿠쟈가 모두 있으면 주홍구슬 의식에서 10% 확률로 원시그란돈이 소환된다."
+  }
+ ],
+ "kyogre": [
+  {
+   "en": "With a Silph Scope, use a Blue Orb on a Biodome Altar with 125+ aquatic blocks, 200+ water, 50+ sea plants, 50+ glass within 16 blocks and 5+ aquatic mobs nearby. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고, 반경 16칸 안에 바다 블록 125개·물 200칸·수중 식물 50개·유리 50개 이상, 근처에 수중 생물 5마리 이상이 있는 바이오돔 제단에 쪽빛구슬을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  },
+  {
+   "en": "If Groudon and Rayquaza are both in your party, the Blue Orb ritual has a 10% chance to summon Primal Kyogre instead.",
+   "ko": "파티에 그란돈과 레쿠쟈가 모두 있으면 쪽빛구슬 의식에서 10% 확률로 원시가이오가가 소환된다."
+  }
+ ],
+ "rayquaza": [
+  {
+   "en": "With Kyogre and Groudon in your party and a Silph Scope, fly very fast at Y 150 or higher. A Lv.100 raid Rayquaza appears (catchable Lv.75 after defeat); at most once every 15 days.",
+   "ko": "파티에 가이오가와 그란돈을 넣고 실프스코프를 장착한 채 Y 150 이상에서 매우 빠르게 비행한다. Lv.100 레이드 레쿠쟈가 나타나며(쓰러뜨리면 Lv.75로 포획 가능), 15일에 한 번까지만 가능하다."
+  }
+ ],
+ "nihilego": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in an ocean or beach biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 바다 또는 해변 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "buzzwole": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in a jungle biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 정글 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "poipole": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in a swamp biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 늪 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "kartana": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in a forest biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 숲 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "guzzlord": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in a mountain biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 산악 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "celesteela": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in a badlands biome with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 악지 생물군계에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "blacephalon": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in the Nether with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 네더에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "xurkitree": [
+  {
+   "en": "Charge a Wormhole Generator with Cosmic Dust (hold it in your off-hand), then Shift + right-click in any biome not used by another Ultra Beast (e.g. plains) with a Silph Scope. A raid boss at your party level +20 (max 100) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "울트라홀 생성기에 코스믹 더스트를 충전(반대 손에 들고 사용)한 뒤, 실프스코프를 장착하고 다른 울트라비스트에 해당하지 않는 생물군계(예: 평원)에서 시프트 + 오른쪽 클릭한다. 파티 레벨 +20(최대 100)의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "regirock": [
+  {
+   "en": "With a Silph Scope, insert gems into a Gem Box in this order: Amethyst Chunk, Aquamarine, Topaz, Ruby, Jade, Spinel; then use a Tabula Rasa on it. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 보석 상자에 자수정 덩이 → 아쿠아마린 → 토파즈 → 루비 → 옥 → 첨정석 순서로 보석을 넣은 뒤 타불라 라사를 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "regice": [
+  {
+   "en": "With a Silph Scope, insert gems into a Gem Box in this order: Ruby, Topaz, Jade, Aquamarine, Amethyst Chunk, Spinel; then use a Tabula Rasa on it. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 보석 상자에 루비 → 토파즈 → 옥 → 아쿠아마린 → 자수정 덩이 → 첨정석 순서로 보석을 넣은 뒤 타불라 라사를 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "registeel": [
+  {
+   "en": "With a Silph Scope, insert gems into a Gem Box in this order: Amethyst Chunk, Spinel, Jade, Ruby, Topaz, Aquamarine; then use a Tabula Rasa on it. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 보석 상자에 자수정 덩이 → 첨정석 → 옥 → 루비 → 토파즈 → 아쿠아마린 순서로 보석을 넣은 뒤 타불라 라사를 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "regidrago": [
+  {
+   "en": "With a Silph Scope, insert gems into a Gem Box in this order: Amethyst Chunk, Aquamarine, Jade, Ruby, Spinel, Topaz; then use a Tabula Rasa on it. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 보석 상자에 자수정 덩이 → 아쿠아마린 → 옥 → 루비 → 첨정석 → 토파즈 순서로 보석을 넣은 뒤 타불라 라사를 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "regieleki": [
+  {
+   "en": "With a Silph Scope, insert gems into a Gem Box in this order: Ruby and Jade (either order), Topaz, Spinel, Aquamarine, Amethyst Chunk; then use a Tabula Rasa on it. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 보석 상자에 루비·옥(순서 무관) → 토파즈 → 첨정석 → 아쿠아마린 → 자수정 덩이 순서로 보석을 넣은 뒤 타불라 라사를 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "regigigas": [
+  {
+   "en": "Complete any correct Gem Box code and use a Tabula Rasa while Regirock, Regice, Registeel, Regieleki and Regidrago are all in your party. A Lv.100 raid Regigigas appears instead (catchable Lv.45 after defeat).",
+   "ko": "레지락·레지아이스·레지스틸·레지에레키·레지드래고를 모두 파티에 넣은 채 보석 상자의 올바른 순서 중 하나를 완성하고 타불라 라사를 사용하면 대신 Lv.100 레이드 레지기가스가 나타난다(쓰러뜨리면 Lv.45로 포획 가능)."
+  }
+ ],
+ "shaymin": [
+  {
+   "en": "With a Silph Scope, use a Gracidea Flower in a Meadow biome. A Lv.95 raid Shaymin appears; defeat it to get a catchable Lv.35 one.",
+   "ko": "실프스코프를 장착하고 목초지 생물군계에서 그라시데아꽃을 사용한다. Lv.95 레이드 쉐이미가 나타나며, 쓰러뜨리면 포획 가능한 Lv.35 개체가 나온다."
+  }
+ ],
+ "comfey": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "lilligant": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon (normal or Hisuian form); 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬(일반 또는 히스이 폼)이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "flabebe": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "floette": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "florges": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "skiploom": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "roserade": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "roselia": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "sunkern": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "sunflora": [
+  {
+   "en": "Using a Gracidea Flower in a Meadow (Silph Scope equipped) makes flowers within 16 blocks sometimes release this Pokémon; 5% shiny chance.",
+   "ko": "실프스코프를 장착하고 목초지에서 그라시데아꽃을 사용하면 반경 16칸 안의 꽃에서 이 포켓몬이 튀어나올 수 있다. 이로치 확률 5%."
+  }
+ ],
+ "mew": [
+  {
+   "en": "With a Silph Scope, arrange the 16 Mural Stones into the correct 4×4 picture and right-click the starting stone (Mural Stone 5) with a Prismatic Shard. A Lv.100 raid Mew appears; defeat it for a catchable Lv.8 Mew.",
+   "ko": "실프스코프를 장착하고 벽화 조각 16개를 올바른 4×4 그림으로 맞춘 뒤, 시작 조각(5번 벽화 조각)에 무지갯빛 파편을 사용한다. Lv.100 레이드 뮤가 나타나며, 쓰러뜨리면 포획 가능한 Lv.8 뮤가 나온다."
+  }
+ ],
+ "cosmog": [
+  {
+   "en": "With Mining Mastery and a Silph Scope, place 4 Pedestals holding Moon Dust 3 blocks N/S/E/W of a Statue of The Moon Gnome (one block lower), then use a Moongeist Crystal on the statue. A Lv.100 raid Lunala appears; defeating it gives a Lv.1 Cosmog.",
+   "ko": "채광 마스터리를 개방하고 실프스코프를 장착한 채, 달빛 노움의 조각상 동서남북 3칸 거리(한 칸 아래)에 달의 가루를 올린 받침대 4개를 두고 조각상에 월륜수정을 사용한다. Lv.100 레이드 루나아라가 나타나며, 쓰러뜨리면 Lv.1 코스모그가 나온다."
+  }
+ ],
+ "lunala": [
+  {
+   "en": "With Mining Mastery and a Silph Scope, place 4 Pedestals holding Moon Dust 3 blocks N/S/E/W of a Statue of The Moon Gnome (one block lower), then use a Moongeist Crystal on the statue. A Lv.100 raid Lunala appears; defeating it gives a Lv.1 Cosmog. Lunala itself is not caught here; evolve the Cosmog.",
+   "ko": "채광 마스터리를 개방하고 실프스코프를 장착한 채, 달빛 노움의 조각상 동서남북 3칸 거리(한 칸 아래)에 달의 가루를 올린 받침대 4개를 두고 조각상에 월륜수정을 사용한다. Lv.100 레이드 루나아라가 나타나며, 쓰러뜨리면 Lv.1 코스모그가 나온다. 루나아라 자체는 포획되지 않으니 코스모그를 진화시켜야 한다."
+  }
+ ],
+ "chiyu": [
+  {
+   "en": "With a Silph Scope, use a Blazing Calamity on an Ominous Black Stake (with open space above it). A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 위쪽이 비어 있는 불길한 검은 말뚝에 불타는 재앙을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "chienpao": [
+  {
+   "en": "With a Silph Scope, use a Frozen Calamity on an Ominous Black Stake (with open space above it). A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 위쪽이 비어 있는 불길한 검은 말뚝에 얼어붙은 재앙을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "zekrom": [
+  {
+   "en": "With a Silph Scope, use a Dark Scale on a Charging Rod while it is charging (after a lightning strike or Thunder Stone). A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 충전 중인 피뢰침(번개를 맞았거나 천둥의돌을 사용한 상태)에 검은 비늘을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "reshiram": [
+  {
+   "en": "With a Silph Scope, use a Light Scale on a Brazier. A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 장식용 화로에 하얀 비늘을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "kyurem": [
+  {
+   "en": "With a Silph Scope, use a Bifrost Stone on a Mammutilation (ancient mammoth mob). A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 매머틸레이션(고대 맘모스 몹)에게 비프로스트 돌을 사용한다. Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "screamtail": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "fluttermane": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "slitherwing": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "sandyshocks": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "roaringmoon": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "walkingwake": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "gougingfire": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ragingbolt": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Past pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(과거 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ironthorns": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Future pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(미래 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ironmoth": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Future pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(미래 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ironbundle": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Future pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(미래 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ironvaliant": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Future pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(미래 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "ironleaves": [
+  {
+   "en": "With a Silph Scope, use Booster Energy at the bottom center of an Ancient-City-style portal frame made of Time Frames or Reinforced Deepslate. 3 Lv.80 raids from one era's pool appear (Future pool here); defeat them for catchable Lv.45 ones.",
+   "ko": "타임 프레임 또는 강화된 심층암으로 고대 도시 포탈 모양의 틀을 만들고, 실프스코프를 장착한 채 틀 하단 중앙에 부스트에너지를 사용한다. 한 시대(미래 풀)의 패러독스 포켓몬 3마리가 Lv.80 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "xerneas": [
+  {
+   "en": "With a Silph Scope, offer a Blooming Ring to a Sun Raid Statue (ignores the daily limit). A raid boss (Lv.80+, scaled to your party) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 선레이드 제단에 피어나는 고리을(를) 사용한다(하루 1회 제한 무시). 파티 레벨에 맞춘 Lv.80 이상의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "yveltal": [
+  {
+   "en": "With a Silph Scope, offer a Cornucopia of Greed to a Sun Raid Statue (ignores the daily limit). A raid boss (Lv.80+, scaled to your party) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 선레이드 제단에 탐욕의 뿔을(를) 사용한다(하루 1회 제한 무시). 파티 레벨에 맞춘 Lv.80 이상의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "pecharunt": [
+  {
+   "en": "With a Silph Scope, offer a Pecha Shell to a Sun Raid Statue (ignores the daily limit). A raid boss (Lv.80+, scaled to your party) appears; defeat it for a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 선레이드 제단에 복숭껍질을(를) 사용한다(하루 1회 제한 무시). 파티 레벨에 맞춘 Lv.80 이상의 레이드 보스가 나타나며, 쓰러뜨리면 Lv.45로 포획 가능하다."
+  }
+ ],
+ "darkrai": [
+  {
+   "en": "After unlocking Skill Mastery, faint 5 times in the Skull Cavern to get the Nightmare effect, then try to sleep in a bed. A Lv.95 raid Darkrai appears; defeat it for a catchable Lv.75 one.",
+   "ko": "마스터리를 개방한 뒤 해골 광산에서 5번 기절하면 '악몽' 효과를 받는다. 이 상태로 침대에서 자려 하면 Lv.95 레이드 다크라이가 나타나며, 쓰러뜨리면 포획 가능한 Lv.75 개체가 나온다."
+  }
+ ],
+ "mesprit": [
+  {
+   "en": "Fish with a Poké Bobber rod and Silph Scope while wearing a Swampy Mystica Branch in the charm slot: each catch has a 4% chance to pull up Mesprit, Azelf or Uxie (Lv.75, wild).",
+   "ko": "실프스코프를 장착하고 부적 슬롯에 축축한 신비한 가지를 낀 채 포켓찌 낚싯대로 낚시하면, 낚을 때마다 4% 확률로 엠라이트·아그놈·유크시 중 하나(Lv.75 야생)가 나온다."
+  }
+ ],
+ "azelf": [
+  {
+   "en": "Fish with a Poké Bobber rod and Silph Scope while wearing a Swampy Mystica Branch in the charm slot: each catch has a 4% chance to pull up Mesprit, Azelf or Uxie (Lv.75, wild).",
+   "ko": "실프스코프를 장착하고 부적 슬롯에 축축한 신비한 가지를 낀 채 포켓찌 낚싯대로 낚시하면, 낚을 때마다 4% 확률로 엠라이트·아그놈·유크시 중 하나(Lv.75 야생)가 나온다."
+  }
+ ],
+ "uxie": [
+  {
+   "en": "Fish with a Poké Bobber rod and Silph Scope while wearing a Swampy Mystica Branch in the charm slot: each catch has a 4% chance to pull up Mesprit, Azelf or Uxie (Lv.75, wild).",
+   "ko": "실프스코프를 장착하고 부적 슬롯에 축축한 신비한 가지를 낀 채 포켓찌 낚싯대로 낚시하면, 낚을 때마다 4% 확률로 엠라이트·아그놈·유크시 중 하나(Lv.75 야생)가 나온다."
+  }
+ ],
+ "cresselia": [
+  {
+   "en": "Same Swampy Mystica Branch fishing as the lake trio, but with Mesprit, Azelf and Uxie all in your party: the 4% roll summons a Lv.100 raid Cresselia instead (catchable Lv.75 after defeat).",
+   "ko": "호수의 요정과 같은 방법(축축한 신비한 가지 + 포켓찌 낚시)으로 낚시하되, 엠라이트·아그놈·유크시를 모두 파티에 넣으면 4% 확률로 대신 Lv.100 레이드 크레세리아가 나타난다(쓰러뜨리면 Lv.75로 포획 가능)."
+  }
+ ],
+ "zapdos": [
+  {
+   "en": "Wear Mystica Nectar in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Zapdos, Articuno or Moltres (25% Galarian form) appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 신비한 과일즙을 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 썬더·프리져·파이어(25% 확률로 가라르 폼) 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "articuno": [
+  {
+   "en": "Wear Mystica Nectar in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Zapdos, Articuno or Moltres (25% Galarian form) appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 신비한 과일즙을 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 썬더·프리져·파이어(25% 확률로 가라르 폼) 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "moltres": [
+  {
+   "en": "Wear Mystica Nectar in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Zapdos, Articuno or Moltres (25% Galarian form) appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 신비한 과일즙을 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 썬더·프리져·파이어(25% 확률로 가라르 폼) 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "landorus": [
+  {
+   "en": "Wear Rainbow Steam in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Landorus, Thundurus or Tornadus appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 무지개 증기를 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 랜드로스·볼트로스·토네로스 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "thundurus": [
+  {
+   "en": "Wear Rainbow Steam in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Landorus, Thundurus or Tornadus appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 무지개 증기를 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 랜드로스·볼트로스·토네로스 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "tornadus": [
+  {
+   "en": "Wear Rainbow Steam in the charm slot and stay at Y 60+. Every 15 minutes there's a 20% chance a Lv.100 raid Landorus, Thundurus or Tornadus appears high in the sky nearby; defeat it for a catchable Lv.75 one.",
+   "ko": "부적 슬롯에 무지개 증기를 장착하고 Y 60 이상에 있으면, 15분마다 20% 확률로 근처 하늘 높이 Lv.100 레이드 랜드로스·볼트로스·토네로스 중 하나가 나타난다. 쓰러뜨리면 Lv.75로 포획 가능."
+  }
+ ],
+ "dialga": [
+  {
+   "en": "Fill a Pale Chalice with Liquid Pale (Silph Scope equipped) in the Moontear dimension. Every 10 s it has a 25% chance to summon Dialga or Palkia (Dialga guaranteed on Chiseled Chalcedony) as a Lv.100 raid; defeat it for a catchable Lv.45 one.",
+   "ko": "Moontear 차원에서 실프스코프를 장착하고 페일 성배에 액체 페일을 채운다. 10초마다 25% 확률로 디아루가 또는 펄기아(조각된 옥수 위에 두면 디아루가 확정)가 Lv.100 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능."
+  }
+ ],
+ "palkia": [
+  {
+   "en": "Fill a Pale Chalice with Liquid Pale (Silph Scope equipped) in the Moontear dimension. Every 10 s it has a 25% chance to summon Dialga or Palkia (Palkia guaranteed on Chiseled Rosy Talc Bricks) as a Lv.100 raid; defeat it for a catchable Lv.45 one.",
+   "ko": "Moontear 차원에서 실프스코프를 장착하고 페일 성배에 액체 페일을 채운다. 10초마다 25% 확률로 디아루가 또는 펄기아(조각된 장미활석 석재벽돌 위에 두면 펄기아 확정)가 Lv.100 레이드로 나타나며, 쓰러뜨리면 Lv.45로 포획 가능."
+  }
+ ],
+ "giratina": [
+  {
+   "en": "With a Silph Scope, use Liquid Antimatter on a Pale Chalice (the chalice is consumed). A Lv.100 raid boss appears; defeat it to get a catchable Lv.45 one.",
+   "ko": "실프스코프를 장착하고 페일 성배에 액체 반물질을 사용한다(성배는 사라진다). Lv.100 레이드 보스가 나타나며, 쓰러뜨리면 포획 가능한 Lv.45 개체가 나온다."
+  }
+ ],
+ "hooh": [
+  {
+   "en": "Place a Clear Bell at Y 128 or higher. At 6 AM it has a 20% chance (1% after the first time) to call Ho-Oh; when a player is within 16 blocks, a Lv.95 raid Ho-Oh appears (catchable Lv.75 after defeat).",
+   "ko": "청명의 종을 Y 128 이상에 설치한다. 매일 아침 6시에 20%(첫 등장 이후 1%) 확률로 칠색조가 이끌리며, 플레이어가 16칸 안에 있으면 Lv.95 레이드 칠색조가 나타난다(쓰러뜨리면 Lv.75로 포획 가능)."
+  }
+ ],
+ "lugia": [
+  {
+   "en": "Place a Tidal Bell at Y 128 or higher. At 6 AM it has a 20% chance (1% after the first time) to call Lugia; when a player is within 16 blocks, a Lv.95 raid Lugia appears (catchable Lv.75 after defeat).",
+   "ko": "조수의 종을 Y 128 이상에 설치한다. 매일 아침 6시에 20%(첫 등장 이후 1%) 확률로 루기아가 이끌리며, 플레이어가 16칸 안에 있으면 Lv.95 레이드 루기아가 나타난다(쓰러뜨리면 Lv.75로 포획 가능)."
+  }
+ ],
+ "kubfu": [
+  {
+   "en": "Place a Bear Scroll. At 6 AM it has a 20% chance (1% after the first time) to call Kubfu; when a player is within 16 blocks, a Lv.95 raid Kubfu appears (catchable Lv.75 after defeat).",
+   "ko": "곰의 족자를 설치한다. 매일 아침 6시에 20%(첫 등장 이후 1%) 확률로 치고마가 도전해 오며, 플레이어가 16칸 안에 있으면 Lv.95 레이드 치고마가 나타난다(쓰러뜨리면 Lv.75로 포획 가능)."
+  }
+ ],
+ "deoxys": [
+  {
+   "en": "Place an Atmospheric Magnet with nothing above it. At night a meteor crashes toward it and a Lv.95 raid Deoxys appears at the crash site (catchable Lv.75 after defeat). Each placed magnet works once.",
+   "ko": "위가 트인 곳에 대기 자석을 설치한다. 밤이 되면 유성이 자석 쪽으로 떨어지고 충돌 지점에 Lv.95 레이드 테오키스가 나타난다(쓰러뜨리면 Lv.75로 포획 가능). 설치한 자석 하나당 한 번만 작동한다."
+  }
+ ],
+ "latias": [
+  {
+   "en": "Revive it in Cobblemon's fossil machine (Fossil Analyzer + Restoration Tank) using Soul Dew + Ruby.",
+   "ko": "코블몬 화석 복원 장치(화석 분석기 + 복원 탱크)에 마음의물방울 + 루비을(를) 넣어 복원한다."
+  }
+ ],
+ "latios": [
+  {
+   "en": "Revive it in Cobblemon's fossil machine (Fossil Analyzer + Restoration Tank) using Soul Dew + Aquamarine.",
+   "ko": "코블몬 화석 복원 장치(화석 분석기 + 복원 탱크)에 마음의물방울 + 아쿠아마린을(를) 넣어 복원한다."
+  }
+ ],
+ "mewtwo": [
+  {
+   "en": "Revive it in Cobblemon's fossil machine (Fossil Analyzer + Restoration Tank) using Egg of the King.",
+   "ko": "코블몬 화석 복원 장치(화석 분석기 + 복원 탱크)에 왕의 알을(를) 넣어 복원한다."
+  }
+ ],
+ "genesect": [
+  {
+   "en": "Buy its Mystery Gift at the Poké Mart for 32 Prismatic Coins (Trainer Level 8) and open it. The Pokémon is sent to you in a Cherish Ball (1/1024 shiny).",
+   "ko": "트레이너 레벨 8에 프렌들리숍에서 무지갯빛 코인 32개로 해당 이상한소포를 사서 열면, 프레셔스볼에 든 포켓몬을 받는다(이로치 확률 1/1024)."
+  },
+  {
+   "en": "An unlabelled (random) Mystery Gift gives Genesect, Zarude or Manaphy at random.",
+   "ko": "내용물이 정해지지 않은(무작위) 이상한소포를 열면 게노세크트·자루도·마나피 중 하나가 나온다."
+  }
+ ],
+ "zarude": [
+  {
+   "en": "Buy its Mystery Gift at the Poké Mart for 32 Prismatic Coins (Trainer Level 8) and open it. The Pokémon is sent to you in a Cherish Ball (1/1024 shiny).",
+   "ko": "트레이너 레벨 8에 프렌들리숍에서 무지갯빛 코인 32개로 해당 이상한소포를 사서 열면, 프레셔스볼에 든 포켓몬을 받는다(이로치 확률 1/1024)."
+  },
+  {
+   "en": "An unlabelled (random) Mystery Gift gives Genesect, Zarude or Manaphy at random.",
+   "ko": "내용물이 정해지지 않은(무작위) 이상한소포를 열면 게노세크트·자루도·마나피 중 하나가 나온다."
+  }
+ ],
+ "manaphy": [
+  {
+   "en": "Buy its Mystery Gift at the Poké Mart for 32 Prismatic Coins (Trainer Level 8) and open it. The Pokémon is sent to you in a Cherish Ball (1/1024 shiny).",
+   "ko": "트레이너 레벨 8에 프렌들리숍에서 무지갯빛 코인 32개로 해당 이상한소포를 사서 열면, 프레셔스볼에 든 포켓몬을 받는다(이로치 확률 1/1024)."
+  },
+  {
+   "en": "An unlabelled (random) Mystery Gift gives Genesect, Zarude or Manaphy at random.",
+   "ko": "내용물이 정해지지 않은(무작위) 이상한소포를 열면 게노세크트·자루도·마나피 중 하나가 나온다."
+  }
+ ],
+ "marshadow": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Caroline, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 캐롤라인의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "magearna": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Aiden, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 에이든의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "celebi": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Ace, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 에이스의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "volcanion": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Haruna, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 하루나의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "zeraora": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Leon, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 레온의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "meloetta": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Maria, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 마리아의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "meltan": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Carlos, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 카를로스의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "diancie": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Veronica, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 베로니카의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "hoopa": [
+  {
+   "en": "Reach Trainer Level 8 and 500+ friendship with Evelyne, then talk to them to receive a Mystery Gift with this Pokémon (Cherish Ball, 1/1024 shiny). After that it can also be bought at the Poké Mart.",
+   "ko": "트레이너 레벨 8을 달성하고 에블린의 호감도를 500 이상으로 올린 뒤 말을 걸면 이 포켓몬이 든 이상한소포를 받는다(프레셔스볼, 이로치 1/1024). 이후 프렌들리숍에서도 구매 가능."
+  }
+ ],
+ "diglett": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "dugtrio": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "geodude": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "graveler": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "golem": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "onix": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "rhyhorn": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "shuckle": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one can come from any ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 이 포켓몬은 모든 광석에서 나올 수 있다."
+  }
+ ],
+ "nacli": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Salt Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 소금 광석."
+  }
+ ],
+ "gimmighoul": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Gold Ore, Deepslate Gold Ore, Nether Gold Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 금 광석, 심층암 금 광석, 네더 금 광석."
+  }
+ ],
+ "cufant": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Copper Ore, Deepslate Copper Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 구리 광석, 심층암 구리 광석."
+  }
+ ],
+ "bronzor": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Copper Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 구리 광석."
+  }
+ ],
+ "drilbur": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iron Ore, Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 철 광석, 심층암 철 광석."
+  }
+ ],
+ "ferroseed": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iron Ore, Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 철 광석, 심층암 철 광석."
+  }
+ ],
+ "klink": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iron Ore, Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 철 광석, 심층암 철 광석."
+  }
+ ],
+ "magnemite": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iron Ore, Redstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 철 광석, 레드스톤 광석."
+  }
+ ],
+ "forretress": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 철 광석."
+  }
+ ],
+ "magneton": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore, Deepslate Redstone Ore, Sparkstone Ore, Deepslate Sparkstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석, 심층암 레드스톤 광석, 스파크스톤 광석, 심층암 스파크스톤 광석."
+  }
+ ],
+ "aron": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석."
+  }
+ ],
+ "riolu": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석."
+  }
+ ],
+ "klang": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석."
+  }
+ ],
+ "steelix": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore, Silver Ore, Deepslate Silver Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석, 은 광석, 심층암 은 광석."
+  }
+ ],
+ "beldum": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Iron Ore, Nether Bismuth Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 철 광석, 네더 비스무트 광석."
+  }
+ ],
+ "rolycoly": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Coal Ore, Deepslate Coal Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 석탄 광석, 심층암 석탄 광석."
+  }
+ ],
+ "slugma": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Coal Ore, Nether Gold Ore, Nether Quartz Ore, Nether Bismuth Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 석탄 광석, 네더 금 광석, 네더 석영 광석, 네더 비스무트 광석."
+  }
+ ],
+ "litwick": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Coal Ore, Nether Gold Ore, Nether Quartz Ore, Nether Bismuth Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 석탄 광석, 네더 금 광석, 네더 석영 광석, 네더 비스무트 광석."
+  }
+ ],
+ "carkol": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Coal Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 석탄 광석."
+  }
+ ],
+ "coalossal": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Coal Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 석탄 광석."
+  }
+ ],
+ "magcargo": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Coal Ore, Nether Gold Ore, Nether Quartz Ore, Nether Bismuth Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 석탄 광석, 네더 금 광석, 네더 석영 광석, 네더 비스무트 광석."
+  }
+ ],
+ "carbink": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Diamond Ore, Deepslate Diamond Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 다이아몬드 광석, 심층암 다이아몬드 광석."
+  }
+ ],
+ "sableye": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Diamond Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 다이아몬드 광석."
+  }
+ ],
+ "togedemaru": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Redstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 레드스톤 광석."
+  }
+ ],
+ "charjabug": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Redstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 레드스톤 광석."
+  }
+ ],
+ "rotom": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Redstone Ore, Sparkstone Ore, Deepslate Sparkstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 레드스톤 광석, 스파크스톤 광석, 심층암 스파크스톤 광석."
+  }
+ ],
+ "nosepass": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Emerald Ore, Deepslate Emerald Ore, Nether Bismuth Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 에메랄드 광석, 심층암 에메랄드 광석, 네더 비스무트 광석."
+  }
+ ],
+ "magby": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Nether Quartz Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 네더 석영 광석."
+  }
+ ],
+ "salandit": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Nether Quartz Ore, Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 네더 석영 광석, 납 광석."
+  }
+ ],
+ "sizzlipede": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Nether Quartz Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 네더 석영 광석."
+  }
+ ],
+ "larvesta": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Nether Quartz Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 네더 석영 광석."
+  }
+ ],
+ "gastly": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Lead Ore, Deepslate Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 납 광석, 심층암 납 광석."
+  }
+ ],
+ "toxel": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Lead Ore, Deepslate Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 납 광석, 심층암 납 광석."
+  }
+ ],
+ "koffing": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Lead Ore, Deepslate Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 납 광석, 심층암 납 광석."
+  }
+ ],
+ "weezing": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Lead Ore, Deepslate Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 납 광석, 심층암 납 광석."
+  }
+ ],
+ "salazzle": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Deepslate Lead Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 심층암 납 광석."
+  }
+ ],
+ "orthworm": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Silver Ore, Deepslate Silver Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 은 광석, 심층암 은 광석."
+  }
+ ],
+ "durant": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Silver Ore, Deepslate Silver Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 은 광석, 심층암 은 광석."
+  }
+ ],
+ "klefki": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Silver Ore, Deepslate Silver Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 은 광석, 심층암 은 광석."
+  }
+ ],
+ "mawile": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Silver Ore, Deepslate Silver Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 은 광석, 심층암 은 광석."
+  }
+ ],
+ "eelektross": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Sparkstone Ore, Deepslate Sparkstone Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 스파크스톤 광석, 심층암 스파크스톤 광석."
+  }
+ ],
+ "glimmet": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Sparkstone Ore, Deepslate Sparkstone Ore, Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 스파크스톤 광석, 심층암 스파크스톤 광석, 이리듐 광석."
+  }
+ ],
+ "glimmora": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Sparkstone Ore, Deepslate Sparkstone Ore, Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 스파크스톤 광석, 심층암 스파크스톤 광석, 이리듐 광석."
+  }
+ ],
+ "duraludon": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 이리듐 광석."
+  }
+ ],
+ "sliggoo": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 이리듐 광석."
+  }
+ ],
+ "metang": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 이리듐 광석."
+  }
+ ],
+ "gholdengo": [
+  {
+   "en": "With the Silph Scope's surprise mode on (left-click the scope), mining an ore without Silk Touch has a 1/80 chance to make a wild Pokémon pop out. This one comes from: Iridium Ore.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고(스코프를 왼쪽 클릭) 섬세한 손길 없이 광석을 캐면 1/80 확률로 야생 포켓몬이 튀어나온다. 나오는 광석: 이리듐 광석."
+  }
+ ],
+ "caterpie": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "weedle": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "ekans": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "oddish": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "paras": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "bellsprout": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "spinarak": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "seedot": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "surskit": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "shroomish": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "lotad": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "budew": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "petilil": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "scatterbug": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "combee": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  },
+  {
+   "en": "It can also pop out when harvesting Pam's fruit trees the same way.",
+   "ko": "같은 방법으로 과일 나무(Pam's)를 수확할 때도 나올 수 있다."
+  }
+ ],
+ "pumpkaboo": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "gourgeist": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one can come from most crops.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 대부분의 작물에서 나올 수 있다."
+  }
+ ],
+ "scyther": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "pinsir": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "heracross": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "ariados": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "nuzleaf": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "vespiquen": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "phantump": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "trevenant": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "fomantis": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "ludicolo": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "carnivine": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "tangrowth": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "tangela": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "lurantis": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting ripe fruit on Pam's fruit trees has a 1/80 chance per tree to make a wild Pokémon pop out (hoes widen the area).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 과일 나무(Pam's)의 다 익은 열매를 오른쪽 클릭으로 수확하면 나무마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 이 포켓몬은 과일 나무에서 나온다."
+  }
+ ],
+ "chikorita": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tea Plant.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 차나무."
+  }
+ ],
+ "bayleef": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tea Plant.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 차나무."
+  }
+ ],
+ "meganium": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tea Plant.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 차나무."
+  }
+ ],
+ "bulbasaur": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Onion.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 양파."
+  }
+ ],
+ "ivysaur": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Onion.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 양파."
+  }
+ ],
+ "venusaur": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Onion.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 양파."
+  }
+ ],
+ "treecko": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Yerba Mate.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 예르바 마테."
+  }
+ ],
+ "grovyle": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Yerba Mate.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 예르바 마테."
+  }
+ ],
+ "sceptile": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Yerba Mate.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 예르바 마테."
+  }
+ ],
+ "sprigatito": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tubabacco.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 투바바코."
+  }
+ ],
+ "floragato": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tubabacco.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 투바바코."
+  }
+ ],
+ "meowscarada": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tubabacco.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 투바바코."
+  }
+ ],
+ "turtwig": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Broccoli.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 브로콜리."
+  }
+ ],
+ "grotle": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Broccoli.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 브로콜리."
+  }
+ ],
+ "torterra": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Broccoli.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 브로콜리."
+  }
+ ],
+ "snivy": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tall Aloe Vera.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 키 큰 알로에 베라."
+  }
+ ],
+ "servine": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tall Aloe Vera.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 키 큰 알로에 베라."
+  }
+ ],
+ "serperior": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Tall Aloe Vera.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 키 큰 알로에 베라."
+  }
+ ],
+ "chespin": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Peanut.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 땅콩."
+  }
+ ],
+ "quilladin": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Peanut.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 땅콩."
+  }
+ ],
+ "chesnaught": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Peanut.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 땅콩."
+  }
+ ],
+ "rowlet": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Corn.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 옥수수."
+  }
+ ],
+ "dartrix": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Corn.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 옥수수."
+  }
+ ],
+ "decidueye": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Corn.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 옥수수."
+  }
+ ],
+ "grookey": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Banana (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 바나나(과일 나무)."
+  }
+ ],
+ "thwackey": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Banana (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 바나나(과일 나무)."
+  }
+ ],
+ "rillaboom": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Banana (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 바나나(과일 나무)."
+  }
+ ],
+ "cherubi": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cherry (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 체리(과일 나무)."
+  }
+ ],
+ "cherrim": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cherry (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 체리(과일 나무)."
+  }
+ ],
+ "gossifleur": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Starfruit (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 스타프루트(과일 나무)."
+  }
+ ],
+ "eldegoss": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Starfruit (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 스타프루트(과일 나무)."
+  }
+ ],
+ "cutiefly": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Starfruit (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 스타프루트(과일 나무)."
+  }
+ ],
+ "ribombee": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Starfruit (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 스타프루트(과일 나무)."
+  }
+ ],
+ "leafeon": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cabbage.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 양배추."
+  }
+ ],
+ "spewpa": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cabbage.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 양배추."
+  }
+ ],
+ "whimsicott": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cotton.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 목화."
+  }
+ ],
+ "cottonee": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cotton.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 목화."
+  }
+ ],
+ "wurmple": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Cranberry.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 크랜베리."
+  }
+ ],
+ "exeggcute": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Pawpaw (Pam's tree).",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 포포(과일 나무)."
+  }
+ ],
+ "kricketot": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Potatoes.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 감자."
+  }
+ ],
+ "kricketune": [
+  {
+   "en": "With the Silph Scope's surprise mode on, right-click harvesting a fully grown crop has a 1/80 chance per crop to make a wild Pokémon pop out (hoes widen the area). This one comes from: Potatoes.",
+   "ko": "실프스코프의 깜짝 등장 모드를 켜고 다 자란 작물을 오른쪽 클릭으로 수확하면 작물마다 1/80 확률로 야생 포켓몬이 튀어나온다(괭이를 들면 범위 확대). 나오는 작물: 감자."
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Cobblemon model renderer</title>
+<style>
+body{font:12px monospace;background:#8a9;margin:8px}
+#grid{display:flex;flex-wrap:wrap;gap:4px}
+#grid figure{margin:0;background:#cdd;text-align:center}
+#grid img{width:128px;height:128px;display:block;image-rendering:auto}
+</style></head><body>
+<div id="status">loading…</div>
+<div id="grid"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const SIZE = 384, OUT = 192;
+const DEG = Math.PI / 180;
+const qs = new URLSearchParams(location.search);
+const status = t => document.getElementById('status').textContent = t;
+const log = t => fetch('/log', {method: 'POST', body: t}).catch(() => {});
+
+const renderer = new THREE.WebGLRenderer({antialias: true, alpha: true, preserveDrawingBuffer: true});
+renderer.setSize(SIZE, SIZE);
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+scene.add(new THREE.AmbientLight(0xffffff, 0.62));
+const sun = new THREE.DirectionalLight(0xffffff, 0.5);
+sun.position.set(-0.35, 1, 0.9);
+scene.add(sun);
+const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, -100, 100);
+cam.position.set(0, 0, 50);
+cam.lookAt(0, 0, 0);
+
+const jcache = new Map();
+async function getJSON(u) {
+  if (!jcache.has(u)) jcache.set(u, fetch('/L/' + u).then(r => r.ok ? r.text() : null).then(t => {
+    if (t == null) return null;
+    try { return JSON.parse(t.replace(/^﻿/, '')); } catch (e) {
+      try { return JSON.parse(t.replace(/\/\/.*$/mg, '').replace(/,(\s*[}\]])/g, '$1')); } catch (e2) { return null; }
+    }
+  }));
+  return jcache.get(u);
+}
+function getImg(u) {
+  return new Promise(res => { const i = new Image(); i.onload = () => res(i); i.onerror = () => res(null); i.src = '/L/' + u; });
+}
+
+// ---- molang (evaluated at anim_time = 0)
+const M = {
+  sin: a => Math.sin(a * DEG), cos: a => Math.cos(a * DEG), abs: Math.abs, clamp: (v, a, b) => Math.min(Math.max(v, a), b),
+  lerp: (a, b, t) => a + (b - a) * t, min: Math.min, max: Math.max, floor: Math.floor, ceil: Math.ceil, round: Math.round,
+  sqrt: Math.sqrt, pow: Math.pow, mod: (a, b) => a % b, exp: Math.exp, pi: Math.PI, random: () => 0.5, random_integer: a => a,
+  asin: x => Math.asin(x) / DEG, acos: x => Math.acos(x) / DEG, atan: x => Math.atan(x) / DEG, atan2: (y, x) => Math.atan2(y, x) / DEG,
+  trunc: Math.trunc, sign: Math.sign, die_roll: () => 0, hermite_blend: t => 3 * t * t - 2 * t * t * t, lerprotate: (a, b, t) => a + (b - a) * t,
+  min_angle: a => a,
+};
+const zeroProxy = new Proxy({}, {get: (t, k) => (k === Symbol.toPrimitive ? () => 0 : (typeof k === 'string' ? 0 : undefined))});
+const mcache = new Map();
+function molang(v) {
+  if (typeof v === 'number') return v;
+  if (typeof v !== 'string') return 0;
+  const s = v.trim();
+  if (s === '') return 0;
+  if (!isNaN(+s)) return +s;
+  let f = mcache.get(s);
+  if (!f) {
+    let src = s.toLowerCase().replace(/\bmath\./g, 'M.').replace(/\b(query|q)\./g, 'Q.').replace(/\b(variable|v)\./g, 'V.').replace(/\b(temp|t)\./g, 'V.').replace(/\b(context|c)\./g, 'V.');
+    src = src.replace(/\breturn\b/g, '').replace(/;/g, '');
+    try { f = new Function('M', 'Q', 'V', 'return (' + src + ');'); } catch (e) { f = () => 0; }
+    mcache.set(s, f);
+  }
+  try {
+    const r = f(M, new Proxy({}, {get: (t, k) => (k === 'anim_time' || k === 'life_time' ? 0 : (k === 'is_on_ground' ? 1 : 0))}), zeroProxy);
+    return (typeof r === 'number' && isFinite(r)) ? r : 0;
+  } catch (e) { return 0; }
+}
+function vec(v, def) {
+  if (v == null) return def;
+  if (Array.isArray(v)) return [molang(v[0]), molang(v[1] ?? v[0]), molang(v[2] ?? v[0])];
+  if (typeof v === 'object') {
+    if (v.vector) return vec(v.vector, def);
+    if (v.post != null) return vec(v.post, def);
+    if (v.pre != null) return vec(v.pre, def);
+    const keys = Object.keys(v).filter(k => !isNaN(+k)).sort((a, b) => +a - +b);
+    if (keys.length) return vec(v[keys[0]], def);
+    return def;
+  }
+  const n = molang(v);
+  return [n, n, n];
+}
+
+// ---- geometry, following Minecraft's ModelPart.Cube box-UV layout
+function boxGeometry(min, size, u0, v0, mirror, grow, tw, th) {
+  let [x0, y0, z0] = min, [w, h, d] = size;
+  let x1 = x0 + w, y1 = y0 + h, z1 = z0 + d;
+  x0 -= grow; y0 -= grow; z0 -= grow; x1 += grow; y1 += grow; z1 += grow;
+  if (mirror) [x0, x1] = [x1, x0];
+  const V = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  const f4 = u0, f5 = u0 + d, f6 = u0 + d + w, f7 = u0 + d + w + w, f8 = u0 + d + w + d, f9 = u0 + d + w + d + w;
+  const f10 = v0, f11 = v0 + d, f12 = v0 + d + h;
+  const polys = [
+    [[5, 4, 0, 1], f5, f10, f6, f11],
+    [[2, 3, 7, 6], f6, f11, f7, f10],
+    [[0, 4, 7, 3], f4, f11, f5, f12],
+    [[1, 0, 3, 2], f5, f11, f6, f12],
+    [[5, 1, 2, 6], f6, f11, f8, f12],
+    [[4, 5, 6, 7], f8, f11, f9, f12],
+  ];
+  const pos = [], uv = [], idx = [];
+  for (const [vi, u1, v1, u2, v2] of polys) {
+    const uvs = [[u2, v1], [u1, v1], [u1, v2], [u2, v2]];
+    const b = pos.length / 3;
+    for (let i = 0; i < 4; i++) {
+      pos.push(...V[vi[i]]);
+      uv.push(uvs[i][0] / tw, 1 - uvs[i][1] / th);
+    }
+    idx.push(b, b + 1, b + 2, b, b + 2, b + 3);
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
+  g.setIndex(idx);
+  g.computeVertexNormals();
+  return g;
+}
+
+function getGeo(model) {
+  const g = model['minecraft:geometry'];
+  if (g && g.length) return {bones: g[0].bones || [], tw: g[0].description.texture_width, th: g[0].description.texture_height};
+  for (const k in model) if (k.startsWith('geometry.')) return {bones: model[k].bones || [], tw: model[k].texturewidth, th: model[k].textureheight};
+  return null;
+}
+
+function eulerZYX(r) { return new THREE.Euler(r[0], r[1], r[2], 'ZYX'); }
+
+function buildModel(geo, material, anim) {
+  const {bones, tw, th} = geo;
+  const byName = {}, groups = {};
+  bones.forEach(b => byName[b.name] = b);
+  const root = new THREE.Group();
+  const animBones = {};
+  if (anim && anim.bones) for (const k in anim.bones) animBones[k.toLowerCase()] = anim.bones[k];
+  function make(b) {
+    if (groups[b.name]) return groups[b.name];
+    const P = b.pivot || [0, 0, 0];
+    const parent = b.parent && byName[b.parent] ? byName[b.parent] : null;
+    const Q = parent ? (parent.pivot || [0, 0, 0]) : null;
+    const grp = new THREE.Group();
+    let off = Q ? [P[0] - Q[0], -(P[1] - Q[1]), P[2] - Q[2]] : [P[0], 24 - P[1], P[2]];
+    let rot = (b.rotation || [0, 0, 0]).map(x => x * DEG);
+    let scl = [1, 1, 1];
+    const ab = animBones[b.name.toLowerCase()];
+    if (ab) {
+      const r = vec(ab.rotation, [0, 0, 0]);
+      rot = [rot[0] + r[0] * DEG, rot[1] + r[1] * DEG, rot[2] + r[2] * DEG];
+      const p = vec(ab.position, [0, 0, 0]);
+      off = [off[0] + p[0], off[1] - p[1], off[2] + p[2]];
+      scl = vec(ab.scale, [1, 1, 1]);
+    }
+    grp.position.set(off[0], off[1], off[2]);
+    grp.rotation.copy(eulerZYX(rot));
+    grp.scale.set(scl[0], scl[1], scl[2]);
+    for (const c of b.cubes || []) {
+      const o = c.origin || [0, 0, 0], s = c.size || [0, 0, 0];
+      const uv = Array.isArray(c.uv) ? c.uv : [0, 0];
+      const mirror = c.mirror != null ? c.mirror : !!b.mirror;
+      const grow = c.inflate || 0;
+      let target = grp, pv = P;
+      if (c.rotation && (c.rotation[0] || c.rotation[1] || c.rotation[2])) {
+        const C = c.pivot || [0, 0, 0];
+        const sub = new THREE.Group();
+        sub.position.set(C[0] - P[0], -(C[1] - P[1]), C[2] - P[2]);
+        sub.rotation.copy(eulerZYX(c.rotation.map(x => x * DEG)));
+        grp.add(sub);
+        target = sub; pv = C;
+      }
+      const min = [o[0] - pv[0], -(o[1] + s[1] - pv[1]), o[2] - pv[2]];
+      const mesh = new THREE.Mesh(boxGeometry(min, s, uv[0], uv[1], mirror, grow, tw, th), material);
+      target.add(mesh);
+    }
+    groups[b.name] = grp;
+    if (parent) make(parent).add(grp); else root.add(grp);
+    return grp;
+  }
+  bones.forEach(make);
+  return root;
+}
+
+async function composite(job) {
+  const base = await getImg(job.tex);
+  if (!base) return null;
+  const cv = document.createElement('canvas');
+  cv.width = base.naturalWidth; cv.height = base.naturalHeight;
+  const cx = cv.getContext('2d');
+  cx.imageSmoothingEnabled = false;
+  cx.drawImage(base, 0, 0);
+  for (const ly of job.layers || []) {
+    const im = await getImg(ly.t);
+    if (im) cx.drawImage(im, 0, 0, im.naturalWidth, Math.min(im.naturalHeight, im.naturalWidth * base.naturalHeight / base.naturalWidth), 0, 0, cv.width, cv.height);
+  }
+  const t = new THREE.CanvasTexture(cv);
+  t.magFilter = THREE.NearestFilter; t.minFilter = THREE.NearestFilter; t.generateMipmaps = false;
+  t.flipY = true;
+  return t;
+}
+
+const probe = document.createElement('canvas');
+probe.width = SIZE; probe.height = SIZE;
+const pctx = probe.getContext('2d', {willReadFrequently: true});
+function alphaBounds(src) {
+  pctx.clearRect(0, 0, SIZE, SIZE);
+  pctx.drawImage(src, 0, 0);
+  const d = pctx.getImageData(0, 0, SIZE, SIZE).data;
+  let x0 = SIZE, y0 = SIZE, x1 = -1, y1 = -1;
+  for (let y = 0; y < SIZE; y++) for (let x = 0; x < SIZE; x++) {
+    if (d[(y * SIZE + x) * 4 + 3] > 24) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+  }
+  return x1 < 0 ? null : {x0, y0, x1, y1};
+}
+
+async function renderJob(job) {
+  const model = await getJSON(job.model);
+  const geo = model && getGeo(model);
+  if (!geo) throw new Error('no geo');
+  const tex = await composite(job);
+  if (!tex) throw new Error('no tex');
+  let anim = null;
+  for (const a of job.anims || []) {
+    const af = await getJSON(a.f);
+    const an = af && af.animations && af.animations[a.id];
+    if (an) { anim = an; break; }
+  }
+  const mat = new THREE.MeshLambertMaterial({map: tex, transparent: true, alphaTest: 0.08, side: THREE.DoubleSide});
+  const inner = buildModel(geo, mat, anim);
+  const holder = new THREE.Group();
+  inner.rotation.x = Math.PI;           // Java model space (y down, front -z) -> world (y up, front +z)
+  holder.add(inner);
+  holder.rotation.y = -28 * DEG;
+  const tilt = new THREE.Group();
+  tilt.rotation.x = 12 * DEG;
+  tilt.add(holder);
+  scene.add(tilt);
+  tilt.updateMatrixWorld(true);
+  const box = new THREE.Box3().setFromObject(tilt);
+  const sz = box.getSize(new THREE.Vector3()), ctr = box.getCenter(new THREE.Vector3());
+  let cx0 = ctr.x, cy0 = ctr.y, half = Math.max(sz.x, sz.y) / 2 * 1.02 || 1;
+  const frame = () => {
+    cam.left = -half; cam.right = half; cam.top = half; cam.bottom = -half;
+    cam.near = -1000; cam.far = 1000; cam.position.set(cx0, cy0, 500); cam.lookAt(cx0, cy0, 0);
+    cam.updateProjectionMatrix();
+    renderer.render(scene, cam);
+  };
+  // refit to visible (non-transparent) pixels; invisible helper cubes otherwise skew the frame
+  for (let pass = 0; pass < 4; pass++) {
+    frame();
+    const b = alphaBounds(renderer.domElement);
+    if (qs.get('debug')) log(job.id + ' pass' + pass + ' box=' + JSON.stringify([box.min, box.max]) + ' c=' + cx0.toFixed(2) + ',' + cy0.toFixed(2) + ' half=' + half.toFixed(3) + ' b=' + JSON.stringify(b));
+    if (!b) break;
+    const px = 2 * half / SIZE;
+    const nx0 = cx0 - half + b.x0 * px, nx1 = cx0 - half + (b.x1 + 1) * px;
+    const ny1 = cy0 + half - b.y0 * px, ny0 = cy0 + half - (b.y1 + 1) * px;
+    const nh = Math.max(nx1 - nx0, ny1 - ny0) / 2 * 1.06;
+    const tight = nh / half;
+    cx0 = (nx0 + nx1) / 2; cy0 = (ny0 + ny1) / 2; half = nh;
+    if (tight > 0.9) break;
+  }
+  frame();
+  scene.remove(tilt);
+  tilt.traverse(o => { if (o.geometry) o.geometry.dispose(); });
+  mat.dispose(); tex.dispose();
+  const out = document.createElement('canvas');
+  out.width = OUT; out.height = OUT;
+  const ox = out.getContext('2d');
+  ox.imageSmoothingEnabled = true; ox.imageSmoothingQuality = 'high';
+  ox.drawImage(renderer.domElement, 0, 0, OUT, OUT);
+  return out.toDataURL('image/png');
+}
+
+(async () => {
+  const jobs = await fetch('/jobs.json').then(r => r.json());
+  let list = jobs;
+  if (qs.get('ids')) { const want = qs.get('ids').split(','); list = jobs.filter(j => want.includes(j.id)); }
+  if (qs.get('of')) { const k = +qs.get('shard'), n = +qs.get('of'); list = list.filter((j, i) => i % n === k); }
+  if (qs.get('skipdone')) { const done = new Set(await fetch('/done').then(r => r.json())); list = list.filter(j => !done.has(j.id)); }
+  const show = !!qs.get('ids');
+  let ok = 0, fail = 0;
+  window.__progress = {total: list.length, ok: 0, fail: 0, done: false};
+  for (let i = 0; i < list.length; i++) {
+    const j = list[i];
+    try {
+      const blob = await renderJob(j);
+      await fetch('/save/' + j.id + '.png', {method: 'POST', body: blob});
+      ok++;
+      if (show) {
+        const fig = document.createElement('figure');
+        fig.innerHTML = '<img src="' + blob + '"><figcaption>' + j.id + '</figcaption>';
+        document.getElementById('grid').appendChild(fig);
+      }
+    } catch (e) { fail++; log('FAIL ' + j.id + ' ' + e.message); }
+    window.__progress = {total: list.length, ok, fail, done: false, last: j.id};
+    if (i % 10 === 0) status(i + '/' + list.length + ' ok=' + ok + ' fail=' + fail);
+  }
+  window.__progress.done = true;
+  status('done ' + ok + ' ok, ' + fail + ' failed');
+  log('DONE ok=' + ok + ' fail=' + fail);
+})();
+</script>
+</body></html>
