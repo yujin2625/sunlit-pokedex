@@ -30,3 +30,7 @@ Load order used for data: Cobblemon backport jar < integrations < rocket_mons < 
 - Models, textures and data come from Cobblemon and the mods, datapacks and resource packs bundled in the modpack, rendered for reference. All game assets (sprites in `pokedex/sprites`, `pokedex/data/thumbs.json`) remain the property of their respective owners and will be removed on request.
 - Font: [Galmuri](https://github.com/quiple/galmuri) by Lee Minseo, SIL Open Font License 1.1 (`pokedex/fonts/OFL.md`). DotGothic16 and Silkscreen are loaded from Google Fonts.
 - Page design follows [mayview-pokedex](https://github.com/yujin2625/mayview-pokedex).
+
+## License
+
+The code in this repository is licensed under [PolyForm Noncommercial 1.0.0](LICENSE.md): noncommercial use, modification and redistribution are allowed, commercial use is not, and redistributions must keep the `Required Notice` line and the license terms. Game assets (Pokémon sprites, models, textures and data) are not covered by this license; see Credits above.
